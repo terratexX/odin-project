@@ -57,10 +57,10 @@ header ul {
 }
 .hero-section {
   padding: 80px 12vw;
+  justify-content: center;
 }
 .hero-outer-flex {
   max-height: 200px;
-  justify-content: space-between; /* todo: doesnt work */
 }
 .hero-inner-flex {
   gap: 10px;
@@ -126,7 +126,7 @@ strong {
 }
 .quote-section strong {
   color: #1f2937;
-  font-size: 18px;
+  font-size: 22px;
   align-self: flex-end;
 }
 .sign-up-section {
@@ -136,6 +136,18 @@ strong {
   flex: 1;
   color: #f9faf8;
   padding: 40px 150px;
+  border-radius: 8px;
+  justify-content: space-between;
 }
-.sign-up-inner-flex {
+.sign-up-section button {
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 6px 32px;
+  font-size: 16px;
+  cursor: pointer;
+}
+footer {
+  color: #e5e7eb;
+  padding: 26px;
+  justify-content: center;
 }
