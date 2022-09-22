@@ -18,7 +18,7 @@ ul,
 .random-info-section,
 .info-item-flex,
 .random-info-item,
-.inspiring-quote,
+.quote-section,
 .sign-up-section,
 .sign-up-outer-flex,
 .sign-up-inner-flex,
@@ -30,7 +30,7 @@ body,
 .hero-inner-flex,
 .random-info-section,
 .random-info-item,
-.inspiring-quote,
+.quote-section,
 .sign-up-inner-flex {
   flex-direction: column;
 }
@@ -45,10 +45,97 @@ button,
 }
 
 header {
-  padding: 10px 12vw;
+  padding: 14px 12vw;
   justify-content: space-between;
   color: #f9faf8;
 }
 header h3 {
   font-size: 24px;
+}
+header ul {
+  gap: 30px;
+}
+.hero-section {
+  padding: 80px 12vw;
+}
+.hero-outer-flex {
+  max-height: 200px;
+  justify-content: space-between; /* todo: doesnt work */
+}
+.hero-inner-flex {
+  gap: 10px;
+  width: 500px;
+}
+.hero-inner-flex h1 {
+  line-height: 48px;
+  font-size: 48px;
+  color: #f9faf8;
+}
+.hero-inner-flex p,
+header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero-inner-flex button {
+  border: none;
+  width: 130px;
+  padding: 6px;
+  font-size: 18px;
+  color: #f9faf8;
+  border-radius: 8px;
+}
+
+.random-info-section {
+  padding: 30px 24vw 80px 24vw;
+  align-items: center;
+  gap: 30px;
+}
+.random-info-section h2 {
+  font-size: 36px;
+  color: #1f2937;
+}
+.info-item-flex {
+  justify-content: center;
+  gap: 40px;
+}
+.random-info-item {
+  flex: 0;
+  text-align: center;
+  gap: 6px;
+}
+.random-info-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  border: 3px solid #3882f6;
+}
+.random-info-item p {
+  color: #1f2937;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 80px 24vw;
+}
+.quote-section i,
+strong {
+  display: block;
+}
+.quote-section i {
+  color: #1f2937;
+  font-size: 36px;
+}
+.quote-section strong {
+  color: #1f2937;
+  font-size: 18px;
+  align-self: flex-end;
+}
+.sign-up-section {
+  padding: 60px 12vw;
+}
+.sign-up-outer-flex {
+  flex: 1;
+  color: #f9faf8;
+  padding: 40px 150px;
+}
+.sign-up-inner-flex {
 }
