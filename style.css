@@ -43,7 +43,9 @@ button,
 .sign-up-outer-flex {
   background-color: #3882f6;
 }
-
+button {
+  cursor: pointer;
+}
 header {
   padding: 14px 12vw;
   justify-content: space-between;
